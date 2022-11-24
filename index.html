@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Html e CSS</title>
+</head>
+
+<body>
+	<!DOCTYPE html>
+	<html>
+
+	<head>
+		<title>Site Html 5 e CSS responsivo</title>
+		<meta name="author" content="Cleber Leão" />
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="content-language" content="pt-br" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="./css/style.css" rel="stylesheet">
+		<link href="./css/cabecalho.css" rel="stylesheet">
+		<link href="./css/conteudoPrincipal.css" rel="stylesheet">
+		<link href="./css/card.css" rel="stylesheet">
+		<link href="./css/ultimoConteudo.css" rel="stylesheet">
+		<link href="./css/footer.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<header id="topo" class="cabecalho">
+				<a href="index.html" title="Como Criar um site responsivo html5 e css">
+					<img src="./img/logoPegoFit.png">
+				</a>
+			</div>
+			<nav>
+				<a href="#topo">Home</a>
+				<a href="#produtos">Produtos</a>
+				<a href="#localizacao">Localização / Contato</a>
+			</nav>
+		</header>
+
+		<section class="conteudo-principal">
+			<img src="./img/secao_principal.jpg" alt="Imagem de escritório da seção principal">
+			<div class="conteudo-principal-texto">
+				<h2>Pego GYM</h2>
+				<h3>A vinte e cinco anos sendo a melhor academia da região.</h3>
+			</div>
+		</section>
+
+		<section id="produtos" class="card">
+			<div class="card-conteudo">
+				<img src="img/GymMachine.png">
+				<h3>Máquinas</h3>
+				<p>
+					As máquinas de musculação são o investimento mais importante nesse ramo, 
+                    pois determinam a qualidade dos treinos e funcionam como chamarizes para os alunos.
+				</p>
+				<a href="#"> Leia Mais </a>
+			</div>
+			<div class="card-conteudo">
+				<img src="img/anilha.png">
+				<h3>Anilhas</h3>
+				<p>
+					De forma muito estranha, é um disco redondo avá com um buraco no meio 
+                    (Não é isso que você esta pensando seu idiota), alguns freqüentadores 
+                    de academia dizem sentir prazer com esse tal objeto. 
+				</p>
+				<a href="#"> Leia Mais </a>
+			</div>
+			<div class="card-conteudo">
+				<img src="img/halter.png">
+				<h3>Alteres</h3>
+				<p>
+					São os objetos utilizados pelos homens na tentativa frustante de aumentar o seu braço. 
+                    Com ele você pode fazer várias posições Sexuais para malhar o braço. Existe vários tipo de execício com eles. 
+				</p>
+				<a href="#"> Leia Mais </a>
+			</div>
+		</section>
+
+		<section id="localizacao" class="ultimo-conteudo">
+			<div class="localizacao">
+				<iframe height="500px" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12612.609026248996!2d-44.04472362194837!3d-19.976967148937803!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcd8d1bafe90cbf84!2sAcademia%20Power%20Point!5e0!3m2!1spt-BR!2sbr!4v1669246525414!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+			<div class="contato">
+				<h1>Entre em contato</h1>
+				<form name="form">
+					
+					<label for="nome">Nome</label>
+					<input type="text" id="nomeid" placeholder="Digite seu nome" required="required" name="nome" />
+				  
+					<label for="fone">Telefone</label>
+					<input type="tel" id="foneid" placeholder="(xx)xxxx-xxxx" name="fone" />
+				  
+					<label for="email">E-mail</label>
+					<input type="email" id="emailid" placeholder="email@email.com" name="email" />
+				  
+					<textarea placeholder="Deixe aqui sua opinião"></textarea>
+				  
+					<button type="submit" class="enviar" onclick="Enviar();" value="Enviar">Enviar</button>
+				  </form>
+			</div>
+		</section>
+
+		<footer class="rodape">
+			<p>Copyleft 2022 - Open Source Student<a href="#">Gustavo Pego</a></p>
+		</footer>
+	</body>
+
+	</html>
+</body>
+
+</html>

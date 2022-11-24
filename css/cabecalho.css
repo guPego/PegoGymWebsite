@@ -1,0 +1,39 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(27, 26, 26, 0.877);
+    align-items: center;
+}
+
+.cabecalho nav a:first-child {
+    color: white;
+}
+
+.cabecalho img {
+    width: 80px;
+    display: block;
+}
+
+.cabecalho nav a {
+    text-decoration: none;
+    color: gray;
+    font-size: 17px;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.cabecalho nav a:hover {
+    font-size: 22px;
+    color: white;
+}
+
+@media screen and (max-width: 480px) {
+    .cabecalho {
+        height: 50px;
+        justify-content: center;
+    }
+    
+    .cabecalho img {
+        display: none;
+    }
+}

@@ -1,0 +1,48 @@
+.card {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.card-conteudo {
+    background-color: rgba(27, 26, 26, 0.877);
+    margin: 25px;
+    border-radius: 10px;
+    color: white;
+}
+
+.card-conteudo img {
+    width: 250px;
+    margin: 25px 0 20px 0;
+}
+
+.card-conteudo h3 {
+    font-size: 2em;
+    font-style: italic;
+}
+
+.card-conteudo p {
+    font-size: 20px;
+    text-align: justify;
+    padding: 0 25px 0 25px;
+}
+
+.card-conteudo a {
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+    border-radius: 3px;
+    font-size: 20px;
+    text-align: end;
+    transition: 0.3s;
+}
+
+.card-conteudo a:hover {
+    font-size: 23px;
+}
+
+@media screen and (max-width: 900px) {
+    .card {
+        flex-wrap: wrap;
+    }
+} 
